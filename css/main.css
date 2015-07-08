@@ -23,36 +23,11 @@ body {
     font-smoothing: antialiased;
     /*overflow-x: hidden;*/
 }
-@font-face {
-    font-family: Ribbon;
-    src: url("../fonts/ribbon.otf");
-}
-@font-face {
-    font-family: Homestead;
-    src: url("../fonts/homestead.ttf");
-}
-@font-face {
-    font-family: Klinic Slab;
-    src: url("../fonts/klinicslab.otf");
-}
-@font-face {
-    font-family: Sintony;
-    src: url("../fonts/sintony.otf");
-}
-@font-face {
-    font-family: Tracks;
-    src: url("../fonts/track.otf");
-}
-@font-face {
-    font-family: Lobster;
-    src: url("../fonts/lobster.otf");
-}
 h1,
 h2,
 h3,
 h4,
 h5 {
-    font-family: Tracks, cursive;
     font-weight: inherit;
     line-height: 1.2;
     margin: 0;
@@ -64,12 +39,12 @@ h4,
 h5,
 h6,
 p {
+    font-family: 'Ubuntu', sans-serif;
     text-shadow: 2px 2px 0px #333;
 }
 h1 {
     -webkit-transition: all .25s;
     transition: all .25s;
-    font-family: Ribbon, fantasy;
     font-size: 6.854em;
     margin-top: -.45em;
     letter-spacing: 0;
@@ -80,7 +55,6 @@ h1:hover {
     text-shadow: 2px 2px 0 #16a085;
 }
 h2 {
-    font-family: Homestead, fantasy;
     font-size: 4.236em;
 }
 h3 {
@@ -91,16 +65,6 @@ h4 {
 }
 h5 {
     font-size: 1.75em;
-    font-family: Klinic Slab, sans-serif;
-}
-#timebar h4,
-#organizers h4,
-#codemv h4,
-#faqboxes h4,
-#signup h3,
-footer h4,
-#about .details h3 {
-    font-family: Lobster, cursive;
 }
 small,
 .font_small {
@@ -144,7 +108,6 @@ h1 a:hover {
     text-shadow: 3px 3px 0 #333;
 }
 p {
-    font-family: Sintony, sans-serif;
     margin: 0;
     font-size: 1.5em;
 }
@@ -321,7 +284,6 @@ Timer Styling
     float: left;
 }
 #timebar h3 {
-    font-family: Klinic Slab, sans-serif;
     text-shadow: 2px 2px 0px #2980b9;
 }
 /********************************************
@@ -369,9 +331,6 @@ Container Styling
 }
 .clear {
     clear: both;
-}
-.altfont {
-    font-family: Klinic Slab, sans-serif;
 }
 .break {
     width: 60%;
@@ -695,7 +654,6 @@ Organizer Styling
     box-shadow: 3px 3px 0px #1abc9c;
 }
 #organizers form input, #organizers form textarea {
-    font-family: Sintony, sans-serif;
     margin: 0;
     font-size: 1.25em;
     color: white;
