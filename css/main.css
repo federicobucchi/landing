@@ -18,7 +18,7 @@ body {
     text-align: center;
     font-weight: 400;
     line-height: 1.45;
-    color: #fff;
+    color: #333;
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
 }
@@ -97,98 +97,32 @@ SplashScreen Styling
     background-image: url("../img/backdrop.png");
     background-size: cover;
     width: 100%;
+    color: #fff;
 }
 #splashtext {
     padding: 20% 0;
 }
-
+#splashscreen #signupdiv {
+    width:
+}
 /********************************************
 Form Styling
+
+top button: #2a8dc3;
+
+Bot button: 1285c3;
+
 ********************************************/
 
-.form {
-    color: #11c88e;
-    padding: 1em;
-    background-color: rgba(0, 0, 0, 0.1);
-    border-radius: 0.25em;
-    text-align: center;
-}
-#formholder {
-    width: 100%;
-}
-form {
-    padding: 1em;
-    background-color: #2980b9;
-    box-shadow: 3px 3px 0 #2c3e50;
-}
-.muted {
-    margin-top: 15px;
-    margin-bottom: 70px;
-}
-.error {
-    background-color: #ff0000;
-    box-shadow: 3px 3px 0px #e74c3c;
-    padding: 10px;
-    color: #16a085;
-    margin-bottom: 15px;
-}
 
 /********************************************
 Footer Styling
 ********************************************/
 
 footer {
-    background-color: #2c3e50;
-    position: fixed;
-    z-index: 1;
+    background-color: #292929;
     bottom: 0;
     width: 100%;
     left: 0;
-    color: #ecf0f1;
-    text-shadow: 2px 2px 0 #7f8c8d;
-}
-footer a {
-    color: #16a085;
-    text-shadow: 1px 1px 0 #95a5a6;
-}
-footer a:hover {
-    color: #2980b9;
-    text-shadow: 1px 1px 0 #1abc9c;
-}
-footer #link {
-    height: 60px;
-    display: block;
-}
-/********************************************
-Colors Styling
-********************************************
-
-#splashscreen {
-    background-color: rgb(200, 86, 75);
-}
-#about {
-    background-color: rgb(223, 181, 152);
-}
-#organizers {
-    background-color: rgb(227, 232, 145);
-}
-#faq {
-    background-color: rgb(180, 217, 144);
-}
-#sponsors {
-    background-color: rgb(164, 177, 234);
-}
-#codemv {
-    background-color: rgb(95, 115, 204);
-}
-#signup {
-    background-color: rgb(149,135,162);
-}
-*/
-
-#special:hover {
-    letter-spacing: 0.02em;
-}
-#special2 {
-    color: red;
+    color: #fff;
 }
