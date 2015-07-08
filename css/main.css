@@ -21,38 +21,21 @@ body {
     color: #fff;
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
-    /*overflow-x: hidden;*/
 }
-h1,
-h2,
-h3,
-h4,
-h5 {
-    font-weight: inherit;
-    line-height: 1.2;
+h1, h2, h3, h4, h5 {
     margin: 0;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+h1, h2, h3, h4, h5, h6, p {
     font-family: 'Ubuntu', sans-serif;
     text-shadow: 2px 2px 0px #333;
 }
 h1 {
     -webkit-transition: all .25s;
     transition: all .25s;
-    font-size: 6.854em;
+    font-size: 2em;
     margin-top: -.45em;
     letter-spacing: 0;
     width: 100%;
-}
-h1:hover {
-    letter-spacing: .05em;
-    text-shadow: 2px 2px 0 #16a085;
 }
 h2 {
     font-size: 4.236em;
