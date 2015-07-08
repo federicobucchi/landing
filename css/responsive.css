@@ -1,167 +1,98 @@
-@media screen and (orientation: portrait) {
-    #splashscreen .firstbanner img {
-        width: 100%;
-        height: auto;
-        margin: 2% 0;
-    }
-    #splashscreen .firstbanner {
-        width: 100%;
-        height: auto;
-    }
-    #splashscreen .overlay {
-        width: 100%;
-        height: auto;
-    }
-}
-@media screen and (orientation: landscape) {
-    #splashscreen .firstbanner img {
-        margin: 2% 0;
-        height: 87.5%;
-        width: auto;
-    }
-    #splashscreen .firstbanner {
-        height: 100%;
-        width: 100%;
-    }
-    #splashscreen .overlay {
-        width: 100%;
-        height: 100%;
-    }
-}
 @media screen and (max-width: 1200px) {
-    #sidebar {
-        display: none;
-    }
-    #timebar {
-        display: none;
-    }
+
 }
 @media screen and (max-width: 1024px) {
-    h1:hover {
-        letter-spacing: 0;
+    h1 {
+        font-size: 2.25em;
     }
-    #signupbutton h1 {
-        margin: 0;
+    h2 {
+        font-size: 1.5em;
     }
-    .padspace {
-        height: 90px;
+    h3 {
+        font-size: 1.25em;
     }
-    .bpad {
-        height: 45px;
+    h5 {
+        font-size: 1.05em;
     }
-    footer
-    {
-        position: relative;
+    small,
+    .font_small {
+        font-size: 0.5em;
     }
-    #splashscreen .firstbanner img {
-        -webkit-filter: none;
-        -moz-filter: none;
-        -ms-filter: none;
-        -o-filter: none;
-        filter: none;
+    #about aside {
+        width: 40%;
     }
-    #splashscreen .firstbanner img:hover {
-        -webkit-filter: none;
-        -moz-filter: none;
-        -ms-filter: none;
-        -o-filter: none;
-        filter: none;
+}
+@media screen and (max-width: 895px) {
+    h5 {
+        font-size: 0.95em;
     }
-    .schedule h5 {
-        font-size: 1.45em;
+    #about img {
+        width: 15%;
+    }
+}
+@media screen and (max-width: 700px) {
+    h1 {
+        font-size: 2.15em;
+    }
+    h2 {
+        font-size: 1.4em;
+    }
+    #splashscreen #signupdiv form input {
+        width: 61.25%;
+    }
+    #splashscreen #signupdiv form button {
+        width: 30%;
+    }
+    footer form {
+        width: 95%;
+    }
+    #about hr {
+        width: 85%;
+    }
+    #about aside {
         text-align: center;
     }
-    #about #map {
-        width: 90%;
-        margin-left: 5%;
-    }
-    .banner {
-        background-attachment: local;
-    }
-}
-@media screen and (max-width: 950px) {
-    #organizers .person {
-        width: 33.33%;
-    }
-}
-@media screen and (max-width: 650px) {
-    #about .schedule {
-        width: 90%;
-        margin: 1% 5%;
-    }
-    .faqcolumn {
-        width: 90%;
-        margin-left: 5%;
-    }
-    .rule {
-        height: 60px;
-    }
-    #special
-    {
-        font-size: 6em;
+    #about img {
+        width: 17.5%;
     }
 }
 @media screen and (max-width: 575px) {
-    html {
-        font-size: .565em;
+    h3 {
+        font-size: 1.15em;
     }
-    p,
-    h5,
-    #organizers p,
-    #organizers h5,
-    .schedule h5 {
-        font-size: 2em;
+    p {
+        font-size: 0.75em;
     }
-    #organizers .person {
-        width: 50%;
+    #splashscreen {
+        margin-bottom: 7.5%;
     }
-    header {
-        height: 32px;
+    #splashtext {
+        padding: 0;
+        padding-top: 47.5%;
+        padding-bottom: 25%;
     }
-    header .link {
-        height: 32px;
+    #splashscreen #signupdiv {
+        width: 95%;
+        margin-bottom: 30%;
     }
-    header .link img {
-        height: 100%;
-        width: auto;
+    #about aside {
+        width: 70%;
+        padding: 5%;
     }
-    .padspace {
-        height: 60px;
+    #about aside h2, #about aside p {
+        width: 100%;
     }
-    .bpad {
-        height: 32px;
-    }
-    .rule {
-        height: 80px;
-    }
-    #timebar {
-        width: 80%;
-        margin-left: 10%;
-        height: 50px;
-    }
-    #timebar div {
-        width: 20%;
-        margin: 0% 2.5%;
-        height: 50px;
-    }
-    .rule p {
-        width: 80%;
-    }
-    #about .details {
-        padding: 30px 0;
-    }
-    .storelink {
-        width: 20%;
-        margin: 0 2.1%;
-        max-width: 100px;
-    }
-    #evlink
-    {
-        max-width: 100%;
+    footer {
+        margin-top: 10%;
     }
 }
 @media screen and (max-width: 575px) and (orientation: landscape) {
-    #splashscreen .firstbanner img {
-        margin-top: 0.5%;
+    #splashtext {
+        padding-top: 34%;
+    }
+}
+@media screen and (max-width: 555px) and (orientation: landscape) {
+    #splashtext {
+        padding-top: 37.5%;
     }
 }
